@@ -1,14 +1,19 @@
 # jemdoc: menu{MENU}{index.html}
 = Chao TAO
 
+~~~
+{}{img_left}{CT.JPG}{alt text}{120}{180}{IMGLINKTARGET}
+~~~
+
 == About
-I am now a second year Ph.D. student at the [http://www.soic.indiana.edu/ Computer Science Department] of [https://www.indiana.edu/ Indiana University Bloomington]. I obtained my B.Eng in Computer Science and Engineering from [http://www.tsxt.sdu.edu.cn/ Taishan College], [http://www.sdu.edu.cn/ Shandong University], China.
+I am now a second year Ph.D. student at the [http://www.soic.indiana.edu/ Computer Science Department] of [https://www.indiana.edu/ Indiana University Bloomington]. I obtained my B.Eng. in Computer Science and Engineering from [http://www.tsxt.sdu.edu.cn/ Taishan College], [http://www.sdu.edu.cn/ Shandong University], China.
 
 My research interests include database, algorithms and theoretical computer science. 
 
 == Contact
-LH406 \n
-School of Informatics and Computer Science \n
-Indiana University Bloomington \n
+Computer Science Department \n
+Indiana University Bloomington \n 
+Lindley Hall, 406, 150 S. Woodlawn Ave. \n
+Bloomington, IN 47405, USA \n
 *Email:* [taochao@indiana.edu] \n
 *Website:* [https://alanthink.github.io]
