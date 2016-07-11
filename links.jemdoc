@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{links.html}
+
+- Useful links
+-- [http://www.scipy-lectures.org/ Scipy Lecture Notes]
+-- [https://leetcode.com/ LeetCode Online Judge]
+-- [http://detexify.kirelabs.org/classify.html Detexify LaTex handwriting]
+--- You can get the LaTex code of a symbol via handwriting
+
+
