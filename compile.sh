@@ -1,2 +1,2 @@
 #! /bin/bash
-./jemdoc.py -c mysite.conf index links
+./jemdoc.py -c mysite.conf index other
