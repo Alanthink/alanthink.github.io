@@ -1,9 +1,5 @@
 # jemdoc: menu{MENU}{other.html}
-= Other
-
-== [https://github.com/Alanthink Github]
-
-== Useful links 
+= Useful links
 
 - [https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf Markdown cheatsheet]
 -- Overview of Markdown syntax
