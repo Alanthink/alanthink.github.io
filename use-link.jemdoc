@@ -15,3 +15,5 @@
 -- A book of Deep Learning
 - [http://ufal.mff.cuni.cz/~straka/courses/npfl114/2016/sutton-bookdraft2016sep.pdf Reinforcement Learning]
 -- A book of Reinforcement Learning
+- [http://sbubeck.com/SurveyBCB12.pdf Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems]
+-- A monograph of multi-armed bandit problems
