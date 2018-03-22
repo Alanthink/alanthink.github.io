@@ -1,8 +1,10 @@
 # jemdoc: menu{MENU}{use-link.html}
 = Useful Links
 
-- [https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf Markdown Cheatsheet]
+- [https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf Markdown Cheat Sheet]
 -- Overview of Markdown syntax
+- [https://vim.rtorr.com/ Vim Cheat Sheet]
+-- Overview of Vim syntax
 - [http://detexify.kirelabs.org/classify.html Detexify LaTex Handwriting]
 -- Get the LaTeX input command of a symbol via handwriting
 - [http://csrankings.org/ Computer Science Rankings (beta)]
@@ -19,3 +21,5 @@
 -- A monograph of multi-armed bandit problems
 - [http://sqlfiddle.com/ SQL Fiddle]
 -- Test SQL queries online
+
+
