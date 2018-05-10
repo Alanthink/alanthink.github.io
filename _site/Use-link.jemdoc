@@ -1,12 +1,17 @@
 # jemdoc: menu{MENU}{use-link.html}
 = Useful Links
 
+== Engineering
 - [https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf Markdown Cheat Sheet]
--- Overview of Markdown syntax
 - [https://vim.rtorr.com/ Vim Cheat Sheet]
--- Overview of Vim syntax
 - [http://detexify.kirelabs.org/classify.html Detexify LaTex Handwriting]
 -- Get the LaTeX input command of a symbol via handwriting
+- [http://sqlfiddle.com/ SQL Fiddle]
+-- Test SQL queries online
+- [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf Git Cheat Sheet] & [http://rogerdudler.github.io/git-guide/ Git Tutorial]
+
+
+== Academic
 - [http://csrankings.org/ Computer Science Rankings (beta)]
 -- Rank computer science schools based on papers of top conferences
 - [http://feedworld.net/toc/ Theory of Computing Blog Aggregator]
@@ -18,8 +23,7 @@
 - [http://incompleteideas.net/book/the-book-2nd.html Reinforcement Learning]
 -- A book of Reinforcement Learning
 - [http://sbubeck.com/SurveyBCB12.pdf Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems]
--- A monograph of multi-armed bandit problems
-- [http://sqlfiddle.com/ SQL Fiddle]
--- Test SQL queries online
+-- An excellent monograph of multi-armed bandit problems
+
 
 
