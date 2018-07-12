@@ -6,9 +6,9 @@ Generally, I am interested in Randomized Algorithms, Combinatorial Optimization,
 
 == Papers
 
-- Best Arm Identification in Linear Bandits with Linear Dimension Dependency \n
+- Best Arm Identification in Linear Bandits with Linear Dimension Dependency ([http://proceedings.mlr.press/v80/tao18a.html PMLR]) \n
 Chao Tao, Saúl A. Blanco, Yuan Zhou \n
--- ICML 2018 (To appear) \n
+-- ICML 2018 \n
 
 - Variance-sensitive Best Arm Identification \n
 Pinyan Lu, Chao Tao, Yuan Zhou \n
