@@ -7,19 +7,39 @@ My research focuses on Multi-armed Bandit algorithms and their applications.
 
 == Papers
 
-- Thresholding Bandit with Near-Optimal Aggregate Regret  \n
-Chao Tao, Saúl A. Blanco, Jian Peng, Yuan Zhou \n
--- Manuscript  \n
+~~~
+{}{raw}
+<ul style="list-style-type:square;">
+  <li> 
+  <i> Thresholding Bandit with Near-Optimal Aggregate Regret </i> <br> 
+  Chao Tao, Saúl A. Blanco, Jian Peng, Yuan Zhou <br> 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Manuscript 
+  </li>
+</ul>
+~~~
 
-- Best Arm Identification in Linear Bandits with Linear Dimension Dependency ([http://proceedings.mlr.press/v80/tao18a.html PMLR]) \n
-Chao Tao, Saúl A. Blanco, Yuan Zhou \n
--- ICML 2018 \n
+~~~
+{}{raw}
+<ul style="list-style-type:square;">
+  <li> 
+  <i> Best Arm Identification in Linear Bandits with Linear Dimension Dependency </i> (<a href="http://proceedings.mlr.press/v80/tao18a.html">PMLR</a>) <br> 
+  Chao Tao, Saúl A. Blanco, Yuan Zhou <br> 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ICML 2018
+  </li>
+</ul>
+~~~
 
-- Variance-sensitive Best Arm Identification \n
-Pinyan Lu, Chao Tao, Yuan Zhou \n
--- Manuscript  \n
-
+~~~
+{}{raw}
+<ul style="list-style-type:square;">
+  <li> 
+  <i> Variance-sensitive Best Arm Identification </i> <br> 
+  Pinyan Lu, Chao Tao, Yuan Zhou <br> 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Manuscript 
+  </li>
+</ul>
+~~~
 
 == Services
 
-- Reviewer/Sub-reviewer for: ITCS 2018, ISAAC 2018, TCS 2018
+- Reviewer/Sub-reviewer for: IJCAI 2019, ITCS 2018, ISAAC 2018, TCS 2018
