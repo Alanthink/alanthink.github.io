@@ -31,7 +31,7 @@
 - [https://tor-lattimore.com/downloads/book/book.pdf Bandit Algorithms]
 -- A book of bandit algorithms which mainly focuses on regret minimization
 - [http://incompleteideas.net/book/the-book-2nd.html Reinforcement Learning: An Introduction]
--- A famous book of Reinforcement Learning
+-- An introduction of Reinforcement Learning
 - [https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs-lecture.pdf Algorithms for Reinforcement Learning]
 -- Theoretical analysis of reinforcement learning algorithms
 
