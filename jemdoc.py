@@ -43,7 +43,7 @@ def info():
   print message
 
 def testeqsupport():
-  supported = False
+  supported = True
   msg = ''
   p = Popen('latex --version', shell=True, stdout=PIPE, stderr=PIPE)
   rc = p.wait()
@@ -75,7 +75,7 @@ class controlstruct(object):
     self.eqdir = eqdir
     self.eqdpi = eqdpi
     # Default to supporting equations until we know otherwise.
-    self.eqsupport = True
+    self.eqsupport = False
     self.eqcache = True
     self.eqpackages = []
     self.texlines = []
