@@ -2,7 +2,44 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'] ],
+    processEscapes: true
+  },
+  TeX: {
+    equationNumbers: {
+      autoNumber: "AMS"
+    },
+    Macros: {
+      eps: "{\\epsilon}",
+      E: "{\\mathbb{E}}",
+      Pr: "{\\mathrm{Pr}}",
+      cond: "{~|~}",
+      br: "{\\mathrm{BR}}",
+      eqdef: "{\\,\\mathbin{\\stackrel{\\rm def}{=}} \\,}"
+    },
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+  }
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS_SVG">
+</script>
 <link rel="icon" href="school.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
@@ -16,8 +53,8 @@
 <div class="menu-item"><a href="pro-exp.html">Professional&nbsp;<br /> Experience</a></div>
 <div class="menu-item"><a href="research.html" class="current">Research</a></div>
 <div class="menu-item"><a href="use-link.html">Useful&nbsp;Links</a></div>
-<div class="menu-item"><a href="https://github.com/Alanthink">Github</a></div>
-<div class="menu-item"><a href="https://alanthink.github.io/blog">Blog</a></div>
+<div class="menu-item"><a href="https://github.com/Alanthink">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i>Alanthink</a></div>
+<div class="menu-item"><a href="https://alanthink.github.io/blog">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa">&#xf038;</i>Blog</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -30,31 +67,67 @@
 usually listed in alphabetical order. <br /> <br /> <br /></p>
 <ul style="list-style-type:square;">
   <li>
-  <i> Thresholding Bandit with Optimal Aggregate Regret </i> (<a href="https://papers.nips.cc/paper/9340-thresholding-bandit-with-optimal-aggregate-regret">link</a>) <br>
+  <i> Thresholding Bandit with Optimal Aggregate Regret </i> (<a href="#" onclick="toggle_visibility('TBPZ19');">abstract</a>, <a href="https://papers.nips.cc/paper/9340-thresholding-bandit-with-optimal-aggregate-regret">link</a>) <br>
   Chao Tao, Saúl A. Blanco, Jian Peng, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NeurIPS 2019
   </li>
 </ul>
+<div id="TBPZ19" style="display:none;margin-left:2.5em">
+<div class="infoblock">
+<div class="blocktitle">Abstract</div>
+<div class="blockcontent">
+<p>We consider the thresholding bandit problem, whose goal is to find arms of mean rewards above a given threshold $\theta$, with a fixed budget of $T$ trials. We introduce LSA, a new, simple and anytime algorithm that aims to minimize the aggregate regret (or the expected number of mis-classified arms). We prove that our algorithm is instance-wise asymptotically optimal. We also provide comprehensive empirical results to demonstrate the algorithm's superior performance over existing algorithms under a variety of different scenarios.</p>
+</div></div>
+</div>
 <ul style="list-style-type:square;">
   <li>
-  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="https://arxiv.org/abs/1904.03293">link</a>) <br>
+  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="#" onclick="toggle_visibility('TZZ19');">abstract</a>, <a href="https://arxiv.org/abs/1904.03293">link</a>) <br>
   Chao Tao, Qin Zhang, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp FOCS 2019
   </li>
 </ul>
+<div id="TZZ19" style="display:none;margin-left:2.5em">
+<div class="infoblock">
+<div class="blocktitle">Abstract</div>
+<div class="blockcontent">
+<p>Best arm identification (or, pure exploration) in multi-armed bandits is a fundamental problem in machine learning. In this paper we study the distributed version of this problem where we have multiple agents, and they want to learn the best arm collaboratively. We want to quantify the power of collaboration under limited interaction (or, communication steps), as interaction is expensive in many settings. We measure the running time of a distributed algorithm as the speedup over the best centralized algorithm where there is only one agent. We give almost tight round-speedup tradeoffs for this problem, along which we develop several new techniques for proving lower bounds on the number of communication steps under time or confidence constraints.</p>
+</div></div>
+</div>
 <ul style="list-style-type:square;">
   <li>
-  <i> Best Arm Identification in Linear Bandits with Linear Dimension Dependency </i> (<a href="http://proceedings.mlr.press/v80/tao18a.html">link</a>) <br>
+  <i> Best Arm Identification in Linear Bandits with Linear Dimension Dependency </i> (<a href="#" onclick="toggle_visibility('TBZ18');">abstract</a>, <a href="http://proceedings.mlr.press/v80/tao18a.html">link</a>) <br>
   Chao Tao, Saúl A. Blanco, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ICML 2018
   </li>
 </ul>
+<div id="TBZ18" style="display:none;margin-left:2.5em">
+<div class="infoblock">
+<div class="blocktitle">Abstract</div>
+<div class="blockcontent">
+<p>We study the best arm identification problem in linear bandits, where the mean reward of each arm depends linearly on an unknown d-dimensional parameter vector $\theta$, and the goal is to identify the arm with the largest expected reward. We first design and analyze a novel randomized $\theta$ estimator based on the solution to the convex relaxation of an optimal $G$-allocation experiment design problem. Using this estimator, we describe an algorithm whose sample complexity depends linearly on the dimension d, as well as an algorithm with sample complexity dependent on the reward gaps of the best $d$ arms, matching the lower bound arising from the ordinary top-arm identification problem. We finally compare the empirical performance of our algorithms with other state-of-the-art algorithms in terms of both sample complexity and computational time.</p>
+</div></div>
+</div>
 <ul style="list-style-type:square;">
   <li>
   <i> Variance-sensitive Best Arm Identification </i> <br>
   Pinyan Lu, Chao Tao, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Manuscript
   </li>
+</ul>
+<h2>Reading Group</h2>
+<ul>
+<li><p><a href="https://alanthink.github.io/rl/">Reinforcement Learning Reading Group</a>, Indiana University Bloomington, Bloomington, IN, Fall 2019</p>
+</li>
+</ul>
+<h2>Softwares</h2>
+<ul>
+<li><p><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/Alanthink/banditpylib">banditpylib</a></p>
+<ul>
+<li><p>a lightweight python library for bandit algorithms</p>
+</li>
+</ul>
+
+</li>
 </ul>
 <h2>Services</h2>
 <ul>

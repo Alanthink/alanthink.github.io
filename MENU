@@ -2,6 +2,6 @@ Info							[index.html]
 Professional \n Experience			[pro-exp.html]
 Research						[research.html]
 Useful Links					[use-link.html]
-Github 							[https://github.com/Alanthink]
-Blog							[https://alanthink.github.io/blog]
+~~~~{{<i class="fa fa-github" aria-hidden="true"></i>}}Alanthink 							[https://github.com/Alanthink]
+~~~~{{<i class="fa">&#xf038;</i>}}Blog							[https://alanthink.github.io/blog]
 

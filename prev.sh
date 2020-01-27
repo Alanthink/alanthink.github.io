@@ -1,4 +1,4 @@
 #! /bin/bash
 ./jemdoc.py -c mysite.conf index use-link pro-exp research
 
-jekyll serve --incremental
+# jekyll serve --incremental

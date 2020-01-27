@@ -14,34 +14,68 @@ usually listed in alphabetical order. \n \n \n
 {}{raw}
 <ul style="list-style-type:square;">
   <li>
-  <i> Thresholding Bandit with Optimal Aggregate Regret </i> (<a href="https://papers.nips.cc/paper/9340-thresholding-bandit-with-optimal-aggregate-regret">link</a>) <br>
+  <i> Thresholding Bandit with Optimal Aggregate Regret </i> (<a href="#" onclick="toggle_visibility('TBPZ19');">abstract</a>, <a href="https://papers.nips.cc/paper/9340-thresholding-bandit-with-optimal-aggregate-regret">link</a>) <br>
   Chao Tao, Saúl A. Blanco, Jian Peng, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp NeurIPS 2019
   </li>
 </ul>
+<div id="TBPZ19" style="display:none;margin-left:2.5em">
+~~~
+
+~~~
+{Abstract}
+We consider the thresholding bandit problem, whose goal is to find arms of mean rewards above a given threshold $\\\\theta$, with a fixed budget of $T$ trials. We introduce LSA, a new, simple and anytime algorithm that aims to minimize the aggregate regret (or the expected number of mis-classified arms). We prove that our algorithm is instance-wise asymptotically optimal. We also provide comprehensive empirical results to demonstrate the algorithm's superior performance over existing algorithms under a variety of different scenarios.
+~~~
+
+~~~
+{}{raw}
+</div>
 ~~~
 
 ~~~
 {}{raw}
 <ul style="list-style-type:square;">
   <li>
-  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="https://arxiv.org/abs/1904.03293">link</a>) <br>
+  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="#" onclick="toggle_visibility('TZZ19');">abstract</a>, <a href="https://arxiv.org/abs/1904.03293">link</a>) <br>
   Chao Tao, Qin Zhang, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp FOCS 2019
   </li>
 </ul>
+<div id="TZZ19" style="display:none;margin-left:2.5em">
+~~~
+
+~~~
+{Abstract}
+Best arm identification (or, pure exploration) in multi-armed bandits is a fundamental problem in machine learning. In this paper we study the distributed version of this problem where we have multiple agents, and they want to learn the best arm collaboratively. We want to quantify the power of collaboration under limited interaction (or, communication steps), as interaction is expensive in many settings. We measure the running time of a distributed algorithm as the speedup over the best centralized algorithm where there is only one agent. We give almost tight round-speedup tradeoffs for this problem, along which we develop several new techniques for proving lower bounds on the number of communication steps under time or confidence constraints.
+~~~
+
+~~~
+{}{raw}
+</div>
 ~~~
 
 ~~~
 {}{raw}
 <ul style="list-style-type:square;">
   <li>
-  <i> Best Arm Identification in Linear Bandits with Linear Dimension Dependency </i> (<a href="http://proceedings.mlr.press/v80/tao18a.html">link</a>) <br>
+  <i> Best Arm Identification in Linear Bandits with Linear Dimension Dependency </i> (<a href="#" onclick="toggle_visibility('TBZ18');">abstract</a>, <a href="http://proceedings.mlr.press/v80/tao18a.html">link</a>) <br>
   Chao Tao, Saúl A. Blanco, Yuan Zhou <br>
   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ICML 2018
   </li>
 </ul>
+<div id="TBZ18" style="display:none;margin-left:2.5em">
 ~~~
+
+~~~
+{Abstract}
+We study the best arm identification problem in linear bandits, where the mean reward of each arm depends linearly on an unknown d-dimensional parameter vector $\\\\theta$, and the goal is to identify the arm with the largest expected reward. We first design and analyze a novel randomized $\\\\theta$ estimator based on the solution to the convex relaxation of an optimal $G$-allocation experiment design problem. Using this estimator, we describe an algorithm whose sample complexity depends linearly on the dimension d, as well as an algorithm with sample complexity dependent on the reward gaps of the best $d$ arms, matching the lower bound arising from the ordinary top-arm identification problem. We finally compare the empirical performance of our algorithms with other state-of-the-art algorithms in terms of both sample complexity and computational time.
+~~~
+
+~~~
+{}{raw}
+</div>
+~~~
+
 
 ~~~
 {}{raw}
@@ -53,6 +87,15 @@ usually listed in alphabetical order. \n \n \n
   </li>
 </ul>
 ~~~
+
+== Reading Group
+
+- [https://alanthink.github.io/rl/ Reinforcement Learning Reading Group], Indiana University Bloomington, Bloomington, IN, Fall 2019
+
+== Softwares
+
+- {{<i class="fa fa-github" aria-hidden="true"></i>}}[https://github.com/Alanthink/banditpylib banditpylib]
+-- a lightweight python library for bandit algorithms
 
 == Services
 
