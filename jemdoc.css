@@ -100,6 +100,10 @@ div#toptitle + h2, div#toptitle + h3 {
 	margin-top: -0.7em;
 }
 
+div.conf {
+	margin-left: 2.5em
+}
+
 div#subtitle {
 	margin-top: 0.0em;
 	margin-bottom: 0.0em;
