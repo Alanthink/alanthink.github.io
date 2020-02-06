@@ -5,7 +5,7 @@
 
 My research focuses on Multi-armed Bandit problems. Generally, I am interested in online learning, reinforcement learning and their applications.
 
-== Papers
+== Selected Papers
 
 Note: in papers related to theoretical computer science and operations research, authors are
 usually listed in alphabetical order. \n \n \n
@@ -37,7 +37,7 @@ We consider the thresholding bandit problem, whose goal is to find arms of mean 
 {}{raw}
 <ul style="list-style-type:square;">
   <li>
-  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="#" onclick="toggle_visibility('TZZ19');">abstract</a>, <a href="https://arxiv.org/abs/1904.03293">link</a>) <br>
+  <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="#" onclick="toggle_visibility('TZZ19');">abstract</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8948669">link</a>) <br>
   Chao Tao, Qin Zhang, Yuan Zhou <br>
   <div class="conf"> FOCS 2019 </div>
   </li>
@@ -77,17 +77,6 @@ We study the best arm identification problem in linear bandits, where the mean r
 </div>
 ~~~
 
-
-~~~
-{}{raw}
-<ul style="list-style-type:square;">
-  <li>
-  <i> Variance-sensitive Best Arm Identification </i> <br>
-  Pinyan Lu, Chao Tao, Yuan Zhou <br>
-  <div class="conf"> Manuscript </div>
-  </li>
-</ul>
-~~~
 
 == Softwares
 
