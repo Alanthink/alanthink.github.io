@@ -13,17 +13,13 @@
     }
 //-->
 </script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
+<script>
+window.MathJax = {
+  tex: {
     inlineMath: [ ['$','$'] ],
-    processEscapes: true
-  },
-  TeX: {
-    equationNumbers: {
-      autoNumber: "AMS"
-    },
-    Macros: {
+    processEscapes: true,
+    tags: "ams",
+    macros: {
       eps: "{\\epsilon}",
       E: "{\\mathbb{E}}",
       Pr: "{\\mathrm{Pr}}",
@@ -31,13 +27,22 @@ MathJax.Hub.Config({
       br: "{\\mathrm{BR}}",
       eqdef: "{\\,\\mathbin{\\stackrel{\\rm def}{=}} \\,}"
     },
-    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    autoload: {
+      color: [],
+      colorV2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
   }
-});
+};
 </script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS_SVG">
-</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" id="MathJax-script"></script>
 <link rel="icon" href="school.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
