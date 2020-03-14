@@ -25,7 +25,7 @@ usually listed in alphabetical order. \n \n \n
 
 ~~~
 {Abstract}
-We consider the thresholding bandit problem, whose goal is to find arms of mean rewards above a given threshold $\\\\theta$, with a fixed budget of $T$ trials. We introduce LSA, a new, simple and anytime algorithm that aims to minimize the aggregate regret (or the expected number of mis-classified arms). We prove that our algorithm is instance-wise asymptotically optimal. We also provide comprehensive empirical results to demonstrate the algorithm's superior performance over existing algorithms under a variety of different scenarios.
+We consider the thresholding bandit problem, whose goal is to find arms of mean rewards above a given threshold $\theta$, with a fixed budget of $T$ trials. We introduce LSA, a new, simple and anytime algorithm that aims to minimize the aggregate regret (or the expected number of mis-classified arms). We prove that our algorithm is instance-wise asymptotically optimal. We also provide comprehensive empirical results to demonstrate the algorithm's superior performance over existing algorithms under a variety of different scenarios.
 ~~~
 
 ~~~
@@ -69,7 +69,7 @@ Best arm identification (or, pure exploration) in multi-armed bandits is a funda
 
 ~~~
 {Abstract}
-We study the best arm identification problem in linear bandits, where the mean reward of each arm depends linearly on an unknown $d$-dimensional parameter vector $\\\\theta$, and the goal is to identify the arm with the largest expected reward. We first design and analyze a novel randomized $\\\\theta$ estimator based on the solution to the convex relaxation of an optimal $G$-allocation experiment design problem. Using this estimator, we describe an algorithm whose sample complexity depends linearly on the dimension $d$, as well as an algorithm with sample complexity dependent on the reward gaps of the best $d$ arms, matching the lower bound arising from the ordinary top-arm identification problem. We finally compare the empirical performance of our algorithms with other state-of-the-art algorithms in terms of both sample complexity and computational time.
+We study the best arm identification problem in linear bandits, where the mean reward of each arm depends linearly on an unknown $d$-dimensional parameter vector $\theta$, and the goal is to identify the arm with the largest expected reward. We first design and analyze a novel randomized $\theta$ estimator based on the solution to the convex relaxation of an optimal $G$-allocation experiment design problem. Using this estimator, we describe an algorithm whose sample complexity depends linearly on the dimension $d$, as well as an algorithm with sample complexity dependent on the reward gaps of the best $d$ arms, matching the lower bound arising from the ordinary top-arm identification problem. We finally compare the empirical performance of our algorithms with other state-of-the-art algorithms in terms of both sample complexity and computational time.
 ~~~
 
 ~~~
