@@ -13,6 +13,13 @@
 - [http://google.github.io/styleguide/ Google Code Style Guides]
 - [https://bazel.build/ Bazel]
 -- A replacement of CMake
+- [https://developers.google.com/protocol-buffers Protobuf]
+-- A robust and platform-neutral way to serialize structured data
+- [https://www.docker.com/ Docker]
+-- A lightweight virtualization technique to run your applications
+- [https://kubernetes.io/ kubernetes]
+-- A system to manage containerized applications
+
 
 
 == Academic
