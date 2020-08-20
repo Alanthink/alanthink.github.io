@@ -77,6 +77,15 @@ We study the best arm identification problem in linear bandits, where the mean r
 </div>
 ~~~
 
+== Talks Given
+
+- "Thresholding Bandit with Optimal Aggregate Regret", Shandong University, Qingdao, China, 01\/08\/2020
+- "Optimal Maximum Gap Estimation in the Multi-armed Bandit," INFORMS Annual Meeting, Houston, TX, 2017
+
+== Reading Group
+
+- [https://alanthink.github.io/rl/ Reinforcement Learning Reading Group], Indiana University Bloomington, Bloomington, IN, Spring 2020
+
 
 == Softwares
 
