@@ -3,7 +3,7 @@
 
 == Research Interests
 
-My research focuses on Multi-armed Bandit problems. Generally, I am interested in online learning, reinforcement learning and their applications.
+My research focuses on Multi-armed Bandit problems. Generally, I am interested in reinforcement learning and its applications.
 
 == Selected Papers
 
@@ -94,4 +94,4 @@ We study the best arm identification problem in linear bandits, where the mean r
 
 == Services
 
-- Reviewer/Sub-reviewer for: ICML (2020), AAAI (2020), BigData (2019), ISAAC (2019, 2018), NeurIPS (2019), IJCAI (2019), ITCS (2018), TCS (2018)
+- Reviewer/Sub-reviewer for: SIGMOD (2021), SOSA (2021), VLDB (2020), ICML (2020), AAAI (2020), BigData (2019), ISAAC (2019, 2018), NeurIPS (2020, 2019), IJCAI (2019), ITCS (2018), TCS (2018)
