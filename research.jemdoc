@@ -16,7 +16,7 @@ usually listed in alphabetical order. \n \n \n
   <li>
   <i> Near-Optimal MNL Bandits Under Risk Criteria </i> (<a href="#" onclick="toggle_visibility('XTZ21');">abstract</a>, <a href="https://arxiv.org/abs/2009.12511">link</a>) <br>
   Guangyu Xi, Chao Tao, Yuan Zhou <br>
-  <div class="conf"> AAAI 2021 (to appear) </div>
+  <div class="conf"> AAAI 2021 </div>
   </li>
 </ul>
 <div id="XTZ21" style="display:none;margin-left:2.5em">
@@ -100,6 +100,7 @@ We study the best arm identification problem in linear bandits, where the mean r
 
 == Talks Given
 
+- "Near-Optimal MNL Bandits Under Risk Criteria", Shandong University, Qingdao, China, 12\/29\/2020
 - "Thresholding Bandit with Optimal Aggregate Regret", Shandong University, Qingdao, China, 01\/08\/2020
 - "Optimal Maximum Gap Estimation in the Multi-armed Bandit," INFORMS Annual Meeting, Houston, TX, 2017
 
