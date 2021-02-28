@@ -7,8 +7,7 @@ My research focuses on Multi-Armed Bandit problems. Generally, I am interested i
 
 == Papers
 
-Note: in papers related to theoretical computer science and operations research, authors are
-usually listed in alphabetical order. \n \n \n
+Note: * indicates alphabetic ordering. \n \n \n
 
 ~~~
 {}{raw}
@@ -59,7 +58,7 @@ We consider the thresholding bandit problem, whose goal is to find arms of mean 
 <ul style="list-style-type:square;">
   <li>
   <i> Collaborative Learning with Limited Interaction: Tight Bounds for Distributed Exploration in Multi-Armed Bandits </i> (<a href="#" onclick="toggle_visibility('TZZ19');">abstract</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8948669">link</a>) <br>
-  Chao Tao, Qin Zhang, Yuan Zhou <br>
+  Chao Tao*, Qin Zhang*, Yuan Zhou* <br>
   <div class="conf"> FOCS 2019 </div>
   </li>
 </ul>
@@ -100,7 +99,7 @@ We study the best arm identification problem in linear bandits, where the mean r
 
 == Talks Given
 
-- "Near-Optimal MNL Bandits Under Risk Criteria", Shandong University, Qingdao, China, 12\/29\/2020
+- "Near-Optimal MNL Bandits Under Risk Criteria", Shandong University, Remote from Bloomington, IN,  12\/29\/2020
 - "Thresholding Bandit with Optimal Aggregate Regret", Shandong University, Qingdao, China, 01\/08\/2020
 - "Optimal Maximum Gap Estimation in the Multi-armed Bandit," INFORMS Annual Meeting, Houston, TX, 2017
 
@@ -112,7 +111,7 @@ We study the best arm identification problem in linear bandits, where the mean r
 == Softwares
 
 - {{<i class="fa fa-github" aria-hidden="true"></i>}}[https://github.com/Alanthink/banditpylib banditpylib]
--- a lightweight python library for bandit algorithms
+-- A lightweight python library for bandit algorithms
 
 == Services
 
