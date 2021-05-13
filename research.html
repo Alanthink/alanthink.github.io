@@ -67,7 +67,21 @@ window.MathJax = {
 <h2>Research Interests</h2>
 <p>My research focuses on Multi-Armed Bandit problems. Generally, I am interested in reinforcement learning and its applications.</p>
 <h2>Papers</h2>
-<p>Note: * indicates alphabetic ordering. <br /> <br /> <br /></p>
+<p>Note: * indicates alphabetic ordering. <br /> <br /></p>
+<ul style="list-style-type:square;">
+  <li>
+  <i> Variance-Dependent Best Arm Identification </i> (<a href="#" onclick="toggle_visibility('LTZ21');">abstract</a>) <br>
+  Pinyan Lu*, Chao Tao*, Xiaojin Zhang* <br>
+  <div class="conf"> UAI 2021 </div>
+  </li>
+</ul>
+<div id="LTZ21" style="display:none;margin-left:2.5em">
+<div class="infoblock">
+<div class="blocktitle">Abstract</div>
+<div class="blockcontent">
+<p>We study the problem of identifying the best arm in a stochastic multi-armed bandit game. Given a set of \(n\) arms indexed from \(1\) to \(n\), each arm \(i\) is associated with an unknown reward distribution supported on \([0,1]\) with mean \(\theta_i\) and variance \(\sigma_i^2\). Assume \(\theta_1 &gt; \theta_2 \geq \cdots \geq\theta_n\). We propose an adaptive algorithm which explores the gaps and variances of the rewards of the arms and makes future decisions based on the gathered information using a novel approach called \(\textit{grouped median elimination}\). The proposed algorithm guarantees to output the best arm with probability \((1-\delta)\) and uses at most \(O \left(\sum_{i = 1}^n \left(\frac{\sigma_i^2}{\Delta_i^2} + \frac{1}{\Delta_i}\right)(\ln \delta^{-1} + \ln \ln \Delta_i^{-1})\right)\) samples, where \(\Delta_i\) (\(i \geq 2\)) denotes the reward gap between arm \(i\) and the best arm and we define \(\Delta_1 = \Delta_2\). This achieves a significant advantage over the variance-independent algorithms in some favorable scenarios and is the first result that removes the extra \(\ln n\) factor on the best arm compared with the state-of-the-art. We further show that \(\Omega \left( \sum_{i = 1}^n \left( \frac{\sigma_i^2}{\Delta_i^2} + \frac{1}{\Delta_i} \right) \ln \delta^{-1} \right)\) samples are necessary for an algorithm to achieve the same goal, thereby illustrating that our algorithm is optimal up to doubly logarithmic terms.</p>
+</div></div>
+</div>
 <ul style="list-style-type:square;">
   <li>
   <i> Near-Optimal MNL Bandits Under Risk Criteria </i> (<a href="#" onclick="toggle_visibility('XTZ21');">abstract</a>, <a href="https://arxiv.org/abs/2009.12511">link</a>) <br>
@@ -126,6 +140,8 @@ window.MathJax = {
 </div>
 <h2>Talks Given</h2>
 <ul>
+<li><p>&ldquo;Near-Optimal MNL Bandits Under Risk Criteria&rdquo;, Shanghai Jiao Tong University, Remote from Bloomington, IN,  03/07/2021</p>
+</li>
 <li><p>&ldquo;Near-Optimal MNL Bandits Under Risk Criteria&rdquo;, Shandong University, Remote from Bloomington, IN,  12/29/2020</p>
 </li>
 <li><p>&ldquo;Thresholding Bandit with Optimal Aggregate Regret&rdquo;, Shandong University, Qingdao, China, 01/08/2020</p>
@@ -150,7 +166,7 @@ window.MathJax = {
 </ul>
 <h2>Services</h2>
 <ul>
-<li><p>Reviewer/Sub-reviewer for: ICDE (2021), SIGMOD (2021), SOSA (2021), VLDB (2020), ICML (2020, 2021), AAAI (2020), BigData (2019), ISAAC (2019, 2018), NeurIPS (2020, 2019), IJCAI (2019), ITCS (2018), TCS (2018)</p>
+<li><p>Reviewer/Sub-reviewer for: ICDE (2021), SIGMOD (2021), SOSA (2021), VLDB (2020), ICML (2021, 2020), AAAI (2020), BigData (2019), ISAAC (2019, 2018), NeurIPS (2020, 2019), IJCAI (2019), ITCS (2018), TCS (2018)</p>
 </li>
 </ul>
 <div id="footer">
